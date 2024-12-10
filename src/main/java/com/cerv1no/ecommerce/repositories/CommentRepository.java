@@ -1,0 +1,13 @@
+package com.cerv1no.ecommerce.repositories;
+
+import com.cerv1no.ecommerce.model.Cart;
+import com.cerv1no.ecommerce.model.Comment;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+import java.util.Optional;
+
+public interface CommentRepository extends JpaRepository<Comment, Long> {
+
+    List<Comment> findByProductId(Long productId);
+}
