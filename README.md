@@ -35,18 +35,18 @@ Este proyecto consiste en una **API REST para un eCommerce** con funcionalidades
 
 - **Framework**: Spring Boot.
 - **Seguridad**: Spring Security.
-- **Base de Datos**: MySQL.
+- **Base de Datos**: Postgres.
 - **Correo Electrónico**: Mailtrap.
 - **Pruebas**: Postman para testeo de endpoints.
 
 ## Endpoints principales
 
-| Método HTTP | Ruta                 | Descripción                             |
-|-------------|----------------------|-----------------------------------------|
-| `POST`      | `/register`          | Registro de usuarios                    |
-| `POST`      | `/login`             | Inicio de sesión                        |
-| `GET`       | `/products`          | Listar todos los productos              |
-| `POST`      | `/cart/add`          | Añadir un producto al carrito           |
-| `POST`      | `/orders/create`     | Crear un nuevo pedido                   |
-| `POST`      | `/orders/confirm`    | Confirmación de pedidos vía correo      |
+| Método HTTP | Ruta                      | Descripción                             |
+|-------------|---------------------------|-----------------------------------------|
+| `POST`      | `/api/auth/register`      | Registro de usuarios                    |
+| `POST`      | `/api/auth/login`         | Inicio de sesión                        |
+| `GET`       | `/api/products`           | Listar todos los productos              |
+| `POST`      | `/api/cart/add`           | Añadir un producto al carrito           |
+| `POST`      | `/api/orders/`            | Crear un nuevo pedido                   |
+| `POST`      | `/api/auth/confirm-email` | Confirmación de pedidos vía correo      |
 
