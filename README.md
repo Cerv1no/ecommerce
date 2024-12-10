@@ -50,8 +50,3 @@ Este proyecto consiste en una **API REST para un eCommerce** con funcionalidades
 | `POST`      | `/orders/create`     | Crear un nuevo pedido                   |
 | `POST`      | `/orders/confirm`    | Confirmación de pedidos vía correo      |
 
-## Instalación y configuración
-
-1. Clonar este repositorio:
-   ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
